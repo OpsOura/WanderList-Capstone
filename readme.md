@@ -34,17 +34,42 @@ By completing this project, you will practice:
 
 ---
 
-## Deliverables
-- Docker image build and push proof
-- Kubernetes deployment manifests and running pods screenshot
-- Ansible playbook runs
-- GitHub Actions pipeline screenshot or logs
-- Prometheus and Grafana monitoring proof
-- Custom Bash and Python scripts
+## Part 7 – Final Deliverables
+
+You must submit the following items as proof of completing the Wanderlist DevOps Project:
+
+1. GitHub Repository
+	 - Your fork/clone of Wanderlist application
+	 - Includes:
+		 - Dockerfile
+		 - Bash script (`build_run.sh`)
+		 - Kubernetes manifests (`deployment.yml`, `service.yml`, etc.)
+		 - Ansible playbook (`deploy_wanderlist.yml`)
+		 - GitHub Actions workflow (`.github/workflows/ci-cd.yml`)
+		 - Shell DB check script (`scripts/check_db.sh`)
+		 - Docker monitor script (`scripts/monitor_docker.py`)
+
+2. Screenshots
+	 - App running locally on Docker (http://localhost:3000)
+	 - App running in Kubernetes (`kubectl get pods` and browser access)
+	 - Successful GitHub Actions pipeline run
+	 - Grafana dashboard showing `wanderlist` pod metrics
+	 - Output of your Python DB check script
+
+3. Written Report (Short)
+	 - Tools you installed and used
+	 - Commands to reproduce your setup
+	 - Any issues you faced and how you solved them
+
+### Submission Checklist
+
+- GitHub repo link with all code/scripts/manifests
+- 5 required screenshots
+- README or short report
 
 ---
 
 ## Notes
-- Keep your commits clean and meaningful.
-- Ensure every deliverable is documented with screenshots in a `/deliverables` folder.
-- This project is designed to simulate real DevOps workflows — follow best practices.
+
+- Keep commits clear and meaningful.
+- Document reproducible commands and configuration in this README or a separate report.
