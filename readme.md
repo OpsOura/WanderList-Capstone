@@ -25,16 +25,6 @@ By completing this project, you will practice:
 
 ---
 
-## Repository Structure
-- **/app/** → Source code for the Wanderlist application
-- **/docker/** → Dockerfiles and related resources
-- **/k8s/** → Kubernetes manifests (Deployment, Service, Ingress, etc.)
-- **/ansible/** → Ansible playbooks and inventories
-- **/scripts/** → Bash and Python scripts for automation and validation
-- **/.github/workflows/** → GitHub Actions pipeline configs
-
----
-
 ## Student Instructions
 1. Fork this repository from the organization into your own GitHub account.
 2. Clone your forked repository to your local machine.
