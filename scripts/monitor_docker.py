@@ -10,6 +10,18 @@ from __future__ import annotations
 import os
 import subprocess
 import datetime
+#!/usr/bin/env python3
+"""Monitor Docker containers and append status entries to logs/docker_monitor.log
+
+Usage: run this script periodically (cron or systemd timer). It will create
+the `logs` directory at the repo root if it does not exist and append a timestamped
+snapshot of docker container statuses.
+"""
+from __future__ import annotations
+
+import os
+import subprocess
+import datetime
 import sys
 
 
