@@ -34,7 +34,7 @@ By completing this project, you will practice:
 
 ---
 
-## Part 7 – Final Deliverables
+##  Final Deliverables
 
 You must submit the following items as proof of completing the Wanderlist DevOps Project:
 
